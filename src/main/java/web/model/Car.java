@@ -1,9 +1,15 @@
-package web.controller;
+package web.model;
 
 public class Car {
     private String color;
     private String brand;
     private int model;
+
+    public Car(String color, String brand, int model) {
+        this.color = color;
+        this.brand = brand;
+        this.model = model;
+    }
 
 
     public String getColor() {
